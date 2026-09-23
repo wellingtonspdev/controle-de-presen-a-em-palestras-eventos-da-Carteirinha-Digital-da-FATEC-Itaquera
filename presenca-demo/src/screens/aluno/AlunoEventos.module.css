@@ -1,0 +1,12 @@
+.page { min-height: 100vh; background: var(--bg); }
+.content { max-width: var(--max-width); margin: 0 auto; padding: 20px 16px; }
+.scanBtn { width: 100%; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 16px; background: var(--primary); color: white; border-radius: var(--radius); font-size: 1rem; font-weight: 600; margin-bottom: 24px; transition: var(--transition); box-shadow: 0 4px 12px rgba(186,26,26,0.3); }
+.scanBtn:hover { background: var(--primary-dark); transform: translateY(-1px); }
+.sectionTitle { font-size: 0.85rem; font-weight: 700; color: var(--text-light); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; }
+.eventCard { background: white; border-radius: var(--radius); padding: 16px; margin-bottom: 12px; box-shadow: var(--shadow); animation: fadeInUp 0.3s ease; }
+.eventHeader { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; margin-bottom: 12px; }
+.eventTitle { font-size: 0.95rem; font-weight: 700; color: var(--text); flex: 1; }
+.eventMeta { display: flex; flex-wrap: wrap; gap: 12px; }
+.eventMeta span { display: flex; align-items: center; gap: 4px; font-size: 0.8rem; color: var(--text-light); }
+.attendanceInfo { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--gray-200); font-size: 0.8rem; color: var(--text-light); }
+.attendanceInfo p { margin-bottom: 2px; }

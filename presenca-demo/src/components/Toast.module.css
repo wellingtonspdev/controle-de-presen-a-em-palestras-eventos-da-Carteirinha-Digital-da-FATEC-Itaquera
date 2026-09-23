@@ -1,0 +1,20 @@
+.toast {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 24px;
+  border-radius: var(--radius-sm);
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  z-index: 9999;
+  animation: slideInDown 0.3s ease, slideOutUp 0.3s ease 2.5s forwards;
+  box-shadow: var(--shadow-md);
+  max-width: 90vw;
+  text-align: center;
+}
+
+.success { background: var(--success); }
+.error { background: var(--danger); }
+.info { background: var(--info); }

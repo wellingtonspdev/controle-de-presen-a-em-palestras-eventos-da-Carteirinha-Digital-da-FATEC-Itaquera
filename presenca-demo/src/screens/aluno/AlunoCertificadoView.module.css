@@ -1,0 +1,21 @@
+.page { min-height: 100vh; background: var(--bg); }
+.content { max-width: 600px; margin: 0 auto; padding: 20px 16px; }
+.notFound { text-align: center; padding: 48px; color: var(--text-muted); }
+.certificate { background: white; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-md); margin-bottom: 20px; }
+.certBorder { border: 3px solid var(--primary); margin: 12px; padding: 28px 20px; border-radius: 8px; }
+.certHeader { text-align: center; margin-bottom: 20px; }
+.institution { font-size: 0.85rem; font-weight: 700; color: var(--primary); letter-spacing: 1px; }
+.cps { font-size: 0.75rem; color: var(--text-light); margin-top: 2px; }
+.certTitle { text-align: center; font-size: 1.6rem; font-weight: 800; color: var(--primary); letter-spacing: 4px; margin-bottom: 24px; }
+.certBody { margin-bottom: 28px; }
+.certText { font-size: 0.9rem; line-height: 1.8; color: var(--text); text-align: justify; }
+.certFooter { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; padding-top: 20px; border-top: 1px solid var(--gray-200); }
+.certQr { text-align: center; }
+.certCode { font-size: 0.65rem; color: var(--text-muted); margin-top: 4px; font-family: monospace; }
+.certSignature { text-align: center; }
+.signatureLine { width: 140px; height: 1px; background: var(--gray-400); margin: 0 auto 8px; }
+.certSignature p { font-size: 0.75rem; color: var(--text-light); }
+.downloadBtn { width: 100%; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 14px; background: var(--primary); color: white; border-radius: var(--radius); font-weight: 600; font-size: 0.95rem; transition: var(--transition); margin-bottom: 12px; }
+.downloadBtn:hover { background: var(--primary-dark); }
+.verifyLink { width: 100%; padding: 12px; background: transparent; color: var(--primary); font-size: 0.85rem; font-weight: 600; text-align: center; border-radius: var(--radius); transition: var(--transition); }
+.verifyLink:hover { background: #FFF5F5; }

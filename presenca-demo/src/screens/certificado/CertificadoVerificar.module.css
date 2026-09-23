@@ -1,0 +1,14 @@
+.page { min-height: 100vh; min-height: 100dvh; display: flex; align-items: center; justify-content: center; background: var(--bg); padding: 20px; }
+.card { background: white; border-radius: var(--radius-lg); padding: 40px 28px; max-width: 480px; width: 100%; text-align: center; box-shadow: var(--shadow-lg); animation: fadeInUp 0.4s ease; }
+.icon { animation: bounceIn 0.5s ease; }
+.title { font-size: 1.3rem; font-weight: 800; color: var(--success); margin: 16px 0 24px; letter-spacing: 1px; }
+.title.invalid { color: var(--danger); }
+.info { text-align: left; }
+.field { padding: 12px 0; border-bottom: 1px solid var(--gray-200); }
+.field:last-child { border-bottom: none; }
+.field label { font-size: 0.7rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+.field p { font-size: 0.95rem; font-weight: 600; color: var(--text); margin-top: 4px; }
+.code { font-family: monospace; color: var(--primary) !important; }
+.notFoundText { color: var(--text-light); font-size: 0.9rem; }
+.branding { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--gray-200); }
+.branding p { font-size: 0.75rem; color: var(--text-muted); font-weight: 600; }

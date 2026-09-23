@@ -1,0 +1,36 @@
+import { Event, CheckpointStatus } from '../types'
+
+export const initialEvents: Event[] = [
+  {
+    id: 'evt-001',
+    title: 'Inteligência Artificial e o Futuro do Desenvolvimento',
+    description: 'Palestra sobre as tendências de IA aplicadas ao desenvolvimento de software moderno.',
+    date: '2026-09-24',
+    startTime: '19:00',
+    endTime: '21:00',
+    location: 'Auditório FATEC Itaquera',
+    workload: '2h',
+    speaker: 'Prof. Dr. Ricardo Mendes',
+    status: 'Programado',
+    checkInStatus: 'closed' as CheckpointStatus,
+    checkOutStatus: 'closed' as CheckpointStatus,
+    currentQrToken: '',
+    qrType: null,
+  },
+  {
+    id: 'evt-002',
+    title: 'Segurança da Informação na Prática',
+    description: 'Workshop prático sobre técnicas de segurança da informação e proteção de dados.',
+    date: '2026-09-30',
+    startTime: '19:30',
+    endTime: '21:30',
+    location: 'Auditório FATEC Itaquera',
+    workload: '2h',
+    speaker: 'Profa. Dra. Camila Torres',
+    status: 'Programado',
+    checkInStatus: 'closed' as CheckpointStatus,
+    checkOutStatus: 'closed' as CheckpointStatus,
+    currentQrToken: '',
+    qrType: null,
+  },
+]

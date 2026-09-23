@@ -1,0 +1,12 @@
+.page { min-height: 100vh; background: var(--bg); }
+.content { max-width: var(--max-width); margin: 0 auto; padding: 20px 16px; }
+.empty { text-align: center; padding: 48px 20px; }
+.empty h3 { margin-top: 16px; font-size: 1rem; color: var(--text-light); }
+.empty p { margin-top: 8px; font-size: 0.85rem; color: var(--text-muted); max-width: 260px; margin-left: auto; margin-right: auto; }
+.certCard { width: 100%; background: white; border-radius: var(--radius); padding: 16px; margin-bottom: 12px; display: flex; align-items: center; gap: 14px; box-shadow: var(--shadow); transition: var(--transition); text-align: left; animation: fadeInUp 0.3s ease; }
+.certCard:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
+.certIcon { width: 52px; height: 52px; background: var(--success-light); border-radius: 14px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.certInfo { flex: 1; min-width: 0; }
+.certLabel { font-size: 0.7rem; font-weight: 600; color: var(--success); text-transform: uppercase; letter-spacing: 0.5px; }
+.certTitle { font-size: 0.9rem; font-weight: 700; color: var(--text); margin-top: 2px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.certMeta { font-size: 0.75rem; color: var(--text-muted); margin-top: 4px; }
